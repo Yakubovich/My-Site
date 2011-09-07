@@ -151,10 +151,17 @@ h2.secondary {
   text-align: center;
 }
 
-#nav a {
+#nav li a {
   display: block;
   padding-top: 64px;
 }
+
+/* Make the entire nav image clickable in IE */
+
+* html ul li a {
+  width: 1%;
+}
+
 
 #nav .hover {
   background-color: white;
