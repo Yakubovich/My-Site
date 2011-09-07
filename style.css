@@ -3,7 +3,7 @@ body {
   margin: 36px;
 
   background:        black;
-  background-image:  url('bg.gif');
+  background-image:  url('images/bg.gif');
   background-repeat: repeat-x;
 
   color:             white;
@@ -56,36 +56,36 @@ h2.secondary {
 }
 
 #content li.step-research {
-  background-image: url('skills-research.png');
+  background-image: url('images/skills-research.png');
   background-repeat: no-repeat;
 }
 
 #content li.step-discussion {
-  background-image: url('skills-discussion.png');
+  background-image: url('images/skills-discussion.png');
 }
 
 #content li.step-mocks {
-  background-image: url('skills-mocks.png');
+  background-image: url('images/skills-mocks.png');
 }
 
 #content li.step-assets {
-  background-image: url('skills-assets.png');
+  background-image: url('images/skills-assets.png');
 }
 
 #content li.step-code {
-  background-image: url('skills-code.png');
+  background-image: url('images/skills-code.png');
 }
 
 #content li.step-user-test {
-  background-image: url('skills-user-test.png');
+  background-image: url('images/skills-user-test.png');
 }
 
 #content li.step-ab-test {
-  background-image: url('skills-ab-test.png');
+  background-image: url('images/skills-ab-test.png');
 }
 
 #content li.step-success{
-  background-image: url('skills-success.png');
+  background-image: url('images/skills-success.png');
 }
 
 #content table {
@@ -161,31 +161,31 @@ a:hover {
 }
 
 #skills {
-  background-image: url('omnigraffle.png');
+  background-image: url('images/omnigraffle.png');
 }
 
 #work {
-  background-image: url('briefcase.png');
+  background-image: url('images/briefcase.png');
 }
 
 #bio {
-  background-image: url('profile.png');
+  background-image: url('images/profile.png');
 }
 
 #plus {
-  background-image: url('plus.png');
+  background-image: url('images/plus.png');
 }
 
 #photos {
-  background-image: url('nikon.png');
+  background-image: url('images/nikon.png');
 }
 
 #resume {
-  background-image: url('pdf.png');
+  background-image: url('images/pdf.png');
 }
 
 #contact {
-  background-image: url('mail.png');
+  background-image: url('images/mail.png');
 }
 
 #mugshot {
@@ -204,41 +204,4 @@ a:hover {
   -webkit-border-radius: 9px;
   -khtml-border-radius:  9px;
   border-radius:         9px;
-}
-
-
-
-
-
-// no longer used (for now)
-
-.bars {
-  background-image: url('bar-empty.gif');
-  width:  63px;
-  height: 16px;
-  float: right;
-}
-
-.eight-of-eight {
-  background-image: url('bar-full.gif');
-  width:  63px;
-  height: 16px;
-}
-
-.six-of-eight {
-  background-image: url('bar-full.gif');
-  width:  48px;
-  height: 16px;
-}
-
-.four-of-eight {
-  background-image: url('bar-full.gif');
-  width:  31px;
-  height: 16px;
-}
-
-.two-of-eight {
-  background-image: url('bar-full.gif');
-  width:  15px;
-  height: 16px;
 }
