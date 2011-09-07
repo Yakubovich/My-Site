@@ -151,6 +151,10 @@ h2.secondary {
   text-align: center;
 }
 
+#nav .hover {
+  background-color: white;
+}
+
 a:link, a:visited {
   color: #941100;
   text-decoration: none;
