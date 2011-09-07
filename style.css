@@ -145,10 +145,15 @@ h2.secondary {
   float:   left;
   width:   52px;
   margin:  0 18px 36px 36px;
-  padding: 64px 0px 0px 0px;
+  padding: 0px 0px 0px 0px;
 
   background-repeat: no-repeat;
   text-align: center;
+}
+
+#nav a {
+  display: block;
+  padding-top: 64px;
 }
 
 #nav .hover {
