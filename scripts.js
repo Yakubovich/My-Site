@@ -10,4 +10,9 @@ $(document).ready(function(){
       $(this).fadeTo("fast", 0.8);
     }
   );
+
+  $("a[rel='example1']").colorbox();
+  $("a[rel='geni']").colorbox();
+  $(".youtube").colorbox({iframe:true, innerWidth:600, innerHeight:344});
+
 });
