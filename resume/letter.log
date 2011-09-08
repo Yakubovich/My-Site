@@ -1,0 +1,58 @@
+This is pdfTeX, Version 3.1415926-1.40.11 (TeX Live 2010) (format=pdflatex 2011.7.13)  14 JUL 2011 14:06
+entering extended mode
+ %&-line parsing enabled.
+**letter.tex
+(./letter.tex
+LaTeX2e <2009/09/24>
+Babel <v3.8l> and hyphenation patterns for english, dumylang, nohyphenation, ba
+sque, danish, dutch, finnish, french, german, ngerman, swissgerman, hungarian, 
+italian, bokmal, nynorsk, polish, portuguese, spanish, swedish, loaded.
+(/usr/local/texlive/2010basic/texmf-dist/tex/latex/base/letter.cls
+Document Class: letter 1999/04/29 v1.2z Standard LaTeX document class
+(/usr/local/texlive/2010basic/texmf-dist/tex/latex/base/size10.clo
+File: size10.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
+)
+\longindentation=\dimen102
+\indentedwidth=\dimen103
+\labelcount=\count79
+)
+(./letter.aux)
+\openout1 = `letter.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 3.
+LaTeX Font Info:    ... okay on input line 3.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 3.
+LaTeX Font Info:    ... okay on input line 3.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 3.
+LaTeX Font Info:    ... okay on input line 3.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 3.
+LaTeX Font Info:    ... okay on input line 3.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 3.
+LaTeX Font Info:    ... okay on input line 3.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 3.
+LaTeX Font Info:    ... okay on input line 3.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 29.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 29.
+ [1
+
+{/usr/local/texlive/2010basic/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] (.
+/letter.aux) ) 
+Here is how much of TeX's memory you used:
+ 137 strings out of 494749
+ 1439 string characters out of 3170619
+ 47588 words of memory out of 3000000
+ 3435 multiletter control sequences out of 15000+200000
+ 3640 words of font info for 14 fonts, out of 3000000 for 9000
+ 166 hyphenation exceptions out of 8191
+ 23i,4n,18p,310b,135s stack positions out of 5000i,500n,10000p,200000b,50000s
+</usr/local/texlive/2010basic/texmf-dist/fonts/type1/public/amsfo
+nts/cm/cmr10.pfb>
+Output written on letter.pdf (1 page, 22220 bytes).
+PDF statistics:
+ 12 PDF objects out of 1000 (max. 8388607)
+ 7 compressed objects within 1 object stream
+ 0 named destinations out of 1000 (max. 500000)
+ 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+
