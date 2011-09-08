@@ -12,6 +12,22 @@
     <link rel="stylesheet" 
           type="text/css" 
 	  href="style.css" />
+
+    <link media="screen" rel="stylesheet" href="colorbox.css" />
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.1/jquery.min.js"></script>
+
+    <script src="jquery.colorbox-min.js"></script>
+
+    <script>
+      $(document).ready(function(){
+        $("a[rel='example1']").colorbox();
+        $("a[rel='geni']").colorbox();
+        $(".youtube").colorbox({iframe:true, innerWidth:600, innerHeight:344});
+      });
+
+    </script>
+
   </head>
   
   <body>
@@ -28,7 +44,31 @@
     
     <div id="content">
       <h3><a href="http://www.yammer.com" target="_blank">Yammer.com</a> : enterprise social networking</h3>
-      <a href="http://www.yammer.com" target="_blank"><img src="images/work-yammer.jpg"></a>
+
+      <a href="images/yammer-feed.png" target="_blank" rel="example1" title="The Yammer website">
+        <img style="width:100px;" src="images/yammer-feed.png">
+      </a>
+
+      <a href="images/yammer-iphone.jpg" target="_blank" rel="example1" title="The Yammer iPhone application">
+        <img style="width:100px;" src="images/yammer-iphone.jpg">
+      </a>
+
+      <a href="images/yammer-analytics.png" target="_blank" rel="example1" title="Yammer analytics">
+        <img style="width:100px;" src="images/yammer-analytics.png">
+      </a>
+
+      <a href="images/yammer-ab.png" target="_blank" rel="example1" title="Yammer A/B test">
+        <img style="width:100px;" src="images/yammer-ab.png">
+      </a>
+
+      <a href="images/yammer-interaction.png" target="_blank" rel="example1" title="User flow for a Yammer feature (publisher) ">
+        <img style="width:100px;" src="images/yammer-interaction.png">
+      </a>
+
+      <a href="images/yammer-notifs.png" target="_blank" rel="example1" title="User flow for a Yammer feature (notifications) ">
+        <img style="width:100px;" src="images/yammer-notifs.png">
+      </a>
+
       <p>
         Yammer is a social network for internal enterprise collaboration. 
         Basically, an internal Facebook.
@@ -44,17 +84,37 @@
         I came to specialize in user experience, leaving the coding to more experienced developers.
       </p>
       <p>
-        I was the lead designer for the Yammer website, AIR desktop app, and iPhone app.
+        I was the lead designer for the Yammer website, AIR desktop app, and iPhone/Blackberry apps.
+      </p>
+
+      <p>
+        The above images are a small sample of the deliverables that I created while working for
+        Yammer, including mockups, A/B test specifications, and user flow diagrams.
       </p>
 
       <br/><br/>
 
       <h3><a href="http://www.geni.com" target="_blank">Geni.com</a> : collaborative genealogy</h3>
-       <iframe width="560" 
-               height="349"
-               src="http://www.youtube.com/embed/FBGc2KEOFDA"
-               frameborder="0"allowfullscreen>
-       </iframe>
+     
+      <a class="youtube" href="http://www.youtube.com/embed/FBGc2KEOFDA" target="_blank" rel="geni" title="An explanation of Geni.com">
+        <img style="width:100px;" src="images/work-geni.png">
+      </a>
+
+      <a href="images/geni-timeline.png" target="_blank" rel="geni" title="Geni: family timeline">
+        <img style="width:100px;" src="images/geni-timeline.png">
+      </a>
+
+      <a href="images/geni-map.png" target="_blank" rel="geni" title="Geni: family map">
+        <img style="width:100px;" src="images/geni-map.png">
+      </a>
+
+      <a href="images/geni-location.png" target="_blank" rel="geni" title="Geni: location profile">
+        <img style="width:100px;" src="images/geni-location.png">
+      </a>
+
+      <a href="images/geni-badges.png" target="_blank" rel="geni" title="Geni: tree badges">
+        <img style="width:100px;" src="images/geni-badges.png">
+      </a>
 
        <p>
          Everyone's related, but we don't always know how.</p>
