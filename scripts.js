@@ -11,8 +11,11 @@ $(document).ready(function(){
     }
   );
 
-  $("a[rel='example1']").colorbox();
-  $("a[rel='geni']").colorbox();
-  $(".youtube").colorbox({iframe:true, innerWidth:600, innerHeight:344});
+  alert($("html").width() > 850 && $("html").height() > 800);
+  if ($("html").width()	> 850 && $("html").height() > 800) {
+    $("a[rel='example1']").colorbox();
+    $("a[rel='geni']").colorbox();
+    $(".youtube").colorbox({iframe:true, innerWidth:600, innerHeight:344});
+  }
 
 });
