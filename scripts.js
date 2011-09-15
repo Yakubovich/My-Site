@@ -11,7 +11,6 @@ $(document).ready(function(){
     }
   );
 
-  alert($("html").width() > 850 && $("html").height() > 800);
   if ($("html").width()	> 850 && $("html").height() > 800) {
     $("a[rel='example1']").colorbox();
     $("a[rel='geni']").colorbox();
